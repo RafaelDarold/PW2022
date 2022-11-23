@@ -7,13 +7,13 @@ final class Conexao{
     private static function conectar()
     {
         if(!(defined('db_user'))){
-            define('db_user', 'root');
+            define('db_user', 'rafael');
         }
         if(!defined('db_host')){
             define('db_host', 'localhost');
         }
         if(!defined('db_pass')){
-            define('db_pass', 'root');
+            define('db_pass', 'Danilo@123');
         }
         if(!defined('db_name')){
             define('db_name', 'pw');
